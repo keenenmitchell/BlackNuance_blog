@@ -12,6 +12,16 @@
 	padding-left: 15px;
 }
 
+.aboutuspicture {
+	border-style: double;
+	border-width: thick;
+	border-color: #C0C0C0;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
 .about-us-header {
 	border-style: dashed;
 	border-color: #C0C0C0;

@@ -7,12 +7,12 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-# postgres for production database
-gem 'pg', group: :production
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.7'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', '1.3.13', group: [:developement, :test]
+# postgres for production database
+gem 'pg', group: :production
 #12 factor for heroku
 gem 'rails_12factor', group: :production
 # Use Puma as the app server
