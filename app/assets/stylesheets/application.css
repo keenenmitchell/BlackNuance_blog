@@ -1,0 +1,92 @@
+
+.aboutusdesign2 {
+	border-style: double;
+	border-width: thick;
+	border-color: #C0C0C0;
+	text-align: center;
+	font-size: 30px;
+	font-family: arial;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.about-us-header {
+	border-style: dashed;
+	border-color: #C0C0C0;
+	text-align: center;
+	font-size: 45px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-bottom: 20px;
+	background-color: black;
+	color: white;
+	font-family: Brush Script MT, cursive;
+}
+
+.blogpostdesign {
+	font-size: 14px;
+}
+
+.home-header {
+	border-style: dashed;
+	border-color: #C0C0C0;
+	text-align: center;
+	font-size: 45px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-bottom: 20px;
+	font-family: Brush Script MT, cursive;
+}
+
+.navbarbrand {
+	font-size: 50px;
+	color: #ffffff;
+	font-family: Brush Script MT, cursive;
+	text-align: left;
+	padding-right: 125px;
+	padding-left: 0px;	
+}
+
+.navbarbrand:hover {
+	color: #C0C0C0;
+}
+
+.new-post-header {
+	text-align: center;
+	border-style: dashed;
+	border-color: #C0C0C0;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-bottom: 20px;
+	font-family: Brush Script MT, cursive;
+}
+
+.navbar {
+	min-height: 40px;
+	background-color: #000000;
+	color: #ffffff;
+	font-size: 25px;
+	text-align: center;
+	vertical-align: center;
+	line-height: 5em;
+	padding-left: 50px;
+}
+
+
+
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
