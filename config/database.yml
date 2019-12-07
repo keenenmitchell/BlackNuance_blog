@@ -28,6 +28,6 @@ staging:
 
 production:
   <<: *default
-  database: db/black_nuance_production
+  database: black_nuance_production
   username: deploy
   password: <%= ENV["DATABASE_PASSWORD"] %>

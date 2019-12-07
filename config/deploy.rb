@@ -1,8 +1,11 @@
 # config valid only for current version of Capistrano
 lock '3.4.1'
 
-set :application, 'blacknuance_blog'
-set :repo_url, 'git@github.com:keenenmitchell/blacknuance_blog.git'
+set :application, 'BlackNuance_blog'
+set :repo_url, 'git@github.com:keenenmitchell/BlackNuance_blog.git'
+
+set :user, "deploy"
+set :stages, %w(production staging)
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
